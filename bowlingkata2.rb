@@ -53,7 +53,7 @@ end
   
   def two_strikes_in_a_row(frame)
     roll1 = frame[0] 
-    two_strikes_in_a_row = 20 + roll1.to_i
+    two_strikes_in_a_row = 20 + roll1
   end
   
   def strike?(frame)
